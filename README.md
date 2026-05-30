@@ -1,32 +1,20 @@
-# Projekt-X
+# Unity Bullet Hell Arena 🔫
 
-Projekt-X is a Unity-based game project.  
-**Note:** This repository only includes the Unity C# source code and essential assets.  
-It does **not** contain the full Unity environment or example scenes to keep the repository lightweight.
+A fast-paced, top-down bullet hell survival game built in **Unity**. You play as a heavily armed character trapped in an enclosed arena, fighting off endless waves of increasingly difficult enemies. 
 
-## Features
+## ✨ Core Features
+* **Endless Waves:** Survive as long as you can against continuous hordes of enemies.
+* **Advanced Enemy AI:** Enemy behavior and movement are driven by a robust **State Machine** and the **A* (A-Star) Pathfinding Algorithm**, ensuring dynamic and intelligent combat encounters.
+* **Weapon Variety:** Choose your playstyle with different weapons. For example, the **Shotgun** features a slow fire rate but delivers massive, short-range spread damage.
 
-- Modular game scripts (player, enemies, items, managers)
-- Integration with [A* Pathfinding Project](https://arongranberg.com/astar/)
-- TextMesh Pro support for advanced UI
-- Custom audio and particle systems
+## 👾 Unique Enemy Types
+Every enemy in the game is programmed with unique behaviors and roles to keep the combat challenging:
+* **Heavy:** A slow-moving tank with high health and massive damage output.
+* **Scout:** A highly mobile unit that constantly circles the player while laying down fire.
+* **Medic:** A support unit dedicated to healing other enemies on the battlefield.
+* **Dog:** An aggressive melee unit that charges up and dashes directly at the player.
 
-## Getting Started
-
-1. Clone the repository.
-2. Open in Unity (recommended version: 2020.3 or newer).
-3. Import missing assets or scenes as needed.
-
-## Folder Structure
-
-- `Assets/` – Main game scripts and assets
-- `AstarPathfindingProject/` – Pathfinding system
-- `TextMesh Pro/` – UI text rendering
-
-## License
-
-See individual asset licenses and Unity Asset Store terms.
-
----
-
-*This project is for development and code review purposes. Example scenes and heavy assets are excluded.*
+## 🛠️ Tech Stack
+* **Engine:** Unity
+* **Language:** C#
+* **Key Algorithms:** A* Pathfinding, Finite State Machine (FSM)
